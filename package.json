@@ -1,0 +1,18 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "description": "A simple HTTP server created for Rich Media II.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Brian Sandon <bxs9775@rit.edu>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
